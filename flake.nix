@@ -20,7 +20,7 @@
       forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
 
       # The script logic
-      scriptName = "git-worktree-setup";
+      scriptName = "gwbc";
     in
     {
       packages = forAllSystems (
