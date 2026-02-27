@@ -70,7 +70,7 @@
                       echo "⚙️  Configuring refspecs..."
                       
                       # Force tracking of all remote heads to local heads
-                      git config remote.origin.fetch "+refs/heads/*:refs/heads/*"
+                      git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
                       
                       # Fetch all branches based on new config
                       git fetch origin
